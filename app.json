@@ -65,10 +65,10 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding",
-"value":"<a href="https://t.me/The_Happy_Hour_Hindi"><b>{file_name}</b></a>
+"value":"<a href=https://t.me/The_Happy_Hour_Hindi><b>{file_name}</b></a>
 
 ════════※ ·❆· ※════════
-<a href="https://t.me/Happy_Hour_Friends"><b>ㅤㅤ▫️Mᴏᴠɪᴇ Rᴇǫ Gʀᴏᴜᴘ▫️</b></a>
+<a href=https://t.me/Happy_Hour_Friends><b>ㅤㅤ▫️Mᴏᴠɪᴇ Rᴇǫ Gʀᴏᴜᴘ▫️</b></a>
 ════════※ ·❆· ※════════",
             "required": false
         },
