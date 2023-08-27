@@ -1,7 +1,7 @@
 {
     "name": "PROFESSOR-BOT",
     "description": "the telegram Autofilter bot",
-    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+    "logo": "https://telegra.ph/file/10c4c1097b9d77cf92ff1.jpg",
     "keywords": ["telegram", "auto-filter", "MrMKN"],
     "website": "https://github.com/MrMKN/PROFESSOR-BOT",
     "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
@@ -13,22 +13,27 @@
         },
         "BOT_TOKEN": {
             "description": "Your bot token.",
+"value":"6488653342:AAEpp3X48iC6lmrh_WWoS2Uw2H6EkSvgMFc",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+"value":"24579842",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+"value":"ec6105bf1a02c98f837300546dc341d1",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+"value":"-1001867538832",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+"value":"1991522624",
             "required": true
         },
         "SHORT_API": {
@@ -41,33 +46,40 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+"value":"https://telegra.ph/file/06bc8042950843d021345.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "Bot Logs,Give a channel id with -1001882834595",
             "required": true                              
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+"value":"-1001821560097",
             "required": false
         },           
         "MAX_RIST_BTNS": {
             "description": "Maximum number of serch result buttons count ⚠️below 10 only ",
-            "value": "10",
+            "value": "7",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": "<a href="https://t.me/The_Happy_Hour_Hindi"><b>{file_name}</b></a>
+
+════════※ ·❆· ※════════
+<a href="https://t.me/Happy_Hour_Friends"><b>ㅤㅤ▫️Mᴏᴠɪᴇ Rᴇǫ Gʀᴏᴜᴘ▫️</b></a>
+════════※ ·❆· ※════════",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI.",
+"value":"mongodb+srv://happythehour:skumar(2006)@cluster0.wttyshn.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "Cluster0",
+            "value": "PROFESSOR-BOT",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -77,7 +89,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "Happy_Hour_Friends",
             "required": false
         },
         "IMDB": {
@@ -92,7 +104,7 @@
         },
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",
-            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}\n<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}\n<b>📑 wʀɪᴛᴇʀ</b>: {writer}\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>📆 Release Info</b> : {release_date}\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mention}",        
+            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>",        
             "required": false
         }, 
         "IMDB_DELET_TIME": {
@@ -107,12 +119,12 @@
         },
         "START_MESSAGE": {
             "description": "bot start message text [ {user} = bot startd user name {bot} = your bot name",
-            "value": "👋 𝙷𝙴𝙻𝙾 {user}\n\n𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {bot},\n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽...",
+            "value": "हम सबको 🆓 में मूवी देते हे। मुजे अपने ग्रुप में add करे ओर admin बना दो....।",
             "required": false
         },       
         "FORCE_SUB_TEXT": {
             "description": "custom force sub text (use ** = bold / use ``=  mono)",
-            "value": "**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
+            "value": "👉 पहले हमारे चेनल को जॉइन करे....😒 \n👉 तभी मूवी मिलेगा....😏 \n👉 फिर Try Again पर क्लिक करो....😎",
             "required": false
         },
         "AUTH_GROUPS": {
@@ -122,7 +134,7 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "",
+            "value": "https://telegra.ph/file/10c4c1097b9d77cf92ff1.jpg",
             "required": false
         },
         "WELCOM_TEXT": {
@@ -132,7 +144,7 @@
         },
         "BUTTON_LOCK_TEXT": {
             "description": "button lock text [User = {query}]",
-            "value": "⚠️ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣",
+            "value": "ये आपके लिए नई हे ।",
             "required": false
         },
         "PMFILTER": {
@@ -156,7 +168,7 @@
         },
         "P_TTI_SHOW_OFF": { 
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
-            "value": "True",
+            "value": "False",
             "required": false
         }
     },
