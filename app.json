@@ -51,7 +51,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -1001882834595",
-"value":"1001882834595",
+"value":"-1001882834595",
             "required": true                              
         },
         "AUTH_CHANNEL": {
@@ -121,7 +121,7 @@
         },       
         "FORCE_SUB_TEXT": {
             "description": "custom force sub text (use ** = bold / use ``=  mono)",
-            "value": "👉 पहले हमारे चेनल को जॉइन करे....😒 \n👉 तभी मूवी मिलेगा....😏 \n👉 फिर Try Again पर क्लिक करो....😎",
+            "value": "पहले हमारे चेनल को जॉइन करे....",
             "required": false
         },
         "AUTH_GROUPS": {
