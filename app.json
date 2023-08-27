@@ -28,7 +28,7 @@
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-"value":"-1001867538832",
+"value":"-1001942168587",
             "required": false
         },
         "ADMINS": {
